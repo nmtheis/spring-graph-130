@@ -4,21 +4,19 @@ body{
     box-sizing: border-box
     font-size:16px;
     font-family:font-family: "Roboto", sans-serif; 
-    background-image: url(../image/forest)
-
-
-
-
-
-
-
-
-
-
-
+    background-image: url(../images/forest.png);
 
 
 }
 h1{
-    font-size: 3em;
+    font-size: 3em;color: chartreuse;
+}
+h2{
+    font-size: 2em;color: wheat;
+}
+p{
+    font-size: 2em; color: green;
+}
+ul{
+    font-size: 1em;color: cornflowerblue;
 }
