@@ -1,8 +1,26 @@
-nav{
-margin-inline: top;
-
-
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size:16px;
+    font-family: "Oswald", sans-serif;
+    background-image: url(../images/forest.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: none;
 }
+
+nav{
+display: flex;
+padding: 20px;
+flex-wrap: wrap;
+}
+nav p{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
 body{    
     margin:0px;
     padding:0px;
@@ -14,14 +32,14 @@ body{
 
 }
 h1{
-    font-size: 3em;color: chartreuse;
+    font-size: 3em;color: whitesmoke;
 }
 h2{
-    font-size: 2em;color: wheat;
+    font-size: 2em;color: whitesmoke;
 }
 p{
-    font-size: 2em; color: green;
+    font-size: 2em; color: whitesmoke;
 }
 ul{
-    font-size: 1em;color: cornflowerblue;
+    font-size: 2em;color: whitesmoke;
 }
