@@ -86,7 +86,7 @@ body main section ul li{
 }
 nav p:hover,
 main ul li:hover{
-    background-color: whitesmoke;
+    background-color: white;
     color: goldenrod;
  
 }
