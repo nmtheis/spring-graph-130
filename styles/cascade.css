@@ -1,0 +1,26 @@
+body{
+    background-image: url(../images/cascade-mtns/background2.jpg);
+    background-repeat: none;
+    width: 750px;
+    text-align: center;
+    padding:auto;
+    margin: auto;
+    
+}
+.sidebar{
+    float: right;
+    justify-content: right;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    justify-content: center;
+}
