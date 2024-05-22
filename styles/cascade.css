@@ -1,26 +1,133 @@
 body{
     background-image: url(../images/cascade-mtns/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: none;
-    width: 750px;
-    text-align: center;
-    padding:auto;
-    margin: auto;
+    padding:0px;
+    margin: 0px;
     
 }
-.sidebar{
-    float: right;
-    justify-content: right;
+
+header, section, aside, article, footer, figure{
+    Display: block;
+}
+
+header{
+    background-color: aliceblue;
+    color: #5CCBFF;
+    padding: 20px;
+
+}
+
+header h1{
+    margin-left:15px;
+    font-size: 30px;
+}
+
+header h2{
+    margin-left: 15px;
+    font-size: 20px;
 }
 
 
+header ul{
+    display: flex;
+}
 
-
-
-
-
-
-
-footer{
+nav ul{
     text-align: center;
+    list-style: none;
+    background-color: #5CCBFF;
+    margin-bottom: 15px;
+    display: flex;
     justify-content: center;
 }
+
+nav li{
+    display: inline-block;
+
+    
+}
+
+nav a{
+    padding: 9px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    background-color: #5CCBFF;
+    color: whitesmoke;
+
+}
+
+nav a:hover{
+    background-color: #326E8A;
+}
+footer{
+    color:white;
+    font-size: 9px;
+    clear: both;
+    background-color: #326E8A;
+}
+
+footer p{
+    font-size: 10px;
+}
+
+.jerry{
+    width: 960px;
+    background-color: #a5cadb65;
+    margin: auto;
+}
+
+.main{
+    width: 630px;
+    padding: 10px;
+    float: left;
+}
+
+.sidebar{
+    float: left;
+    width: 300px;
+    background-color: #a5cadb65;
+    padding: 4px;
+}
+
+.sidebar a{
+    color: #326E8A;
+}
+
+figure{
+    margin: 0px;
+
+}
+
+figcaption{
+    font-size: 10px;
+}
+
+.image-right{
+    float: right;
+}
+
+.image-left{
+    float: left;
+    margin-right: 7px;
+}
+
+h1, h2, h3{
+    font-family: "Sedan SC", serif;
+      
+}
+
+p, li{
+    font-family: "Teko", sans-serif;
+}
+
+
+
+
+
+
+
+
+
