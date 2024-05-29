@@ -2,9 +2,7 @@ body, main, article, section, header, footer{
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-
 }
-
 nav a{
 flex-grow: 1;
 text-align: center;
@@ -13,7 +11,6 @@ text-decoration: none;
 border: solid white 2px;
 padding: 5px;
 }
-
 nav a:hover{
     color: black;
     background-color: gray;
@@ -24,11 +21,9 @@ body{
     background-color: black;
     color: white;
 }
-
 article a{
     text-decoration: none;
 }
-
 section{
     background-position: center;
     background-repeat: none;
@@ -36,53 +31,38 @@ section{
     padding: 5px;
     /*background-attachment: fixed;*/
 }
-
-.hero{
-    /* background-image: url(../images/water\ \(4\).jpg); */
-    border-top-right-radius: 2em;
-}
-
 .hero p{
-    width: 90%;
-    
+    width: 90%;   
 }
-
 .em{
     background-image: url(../images/water.jpg);
     border: solid orangered 1em;
     font-size: .85em;
 }
-
 .rem{
     background-image: url(../images/water\ \(1\).jpg);
     border: dotted darkred .5rem;
 }
-
 .vw{
     background-image: url(../images/water\ \(5\).jpg);
     border: dashed 1vw;
     font-size: 1vw;
 }
-
 .percentage{
     background-image: url(../images/water\ \(2\).jpg)
 }
-
 .percentage p{
     width: 75%;
 }
-
 .box{
     background-image: url(../images/water\ \(3\).jpg);
     box-sizing: border-box;
     border: solid dodgerblue 3em;
 }
-
 .pure-g{
 color: rgb(255, 255, 255);
 font-weight: 800;
 }
-
 img{
     border-radius: 2em;
 }
