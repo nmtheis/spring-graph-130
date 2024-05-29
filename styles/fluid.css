@@ -38,12 +38,12 @@ section{
 }
 
 .hero{
-    background-image: url(../images/water\ \(4\).jpg);
+    /* background-image: url(../images/water\ \(4\).jpg); */
     border-top-right-radius: 2em;
 }
 
 .hero p{
-    width: 50%;
+    width: 90%;
     
 }
 
@@ -83,3 +83,6 @@ color: rgb(255, 255, 255);
 font-weight: 800;
 }
 
+img{
+    border-radius: 2em;
+}
