@@ -2,12 +2,83 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
     <title>Optimizing Images</title>
+    <style>
+        .jerry{
+           background-color: gray;
+           width: 700px;
+           padding: 7px;
+           margin: 5px;
+           float: left; 
+        }
+        .quality{
+            display: inline-block;
+            color: white;
+            vertical-align: top;
+            margin-left: 5px;
+            font-family: "Racing Sans One", sans-serif;
+            font-weight: 200;
+        }
+        .clear{
+            clear: both;
+        }
+        .cars{
+            background-color: rgb(154, 28, 28);
+            padding: 0px 5px 5px 0px;
+        }
+        .cars img{
+            vertical-align: top;
+            margin: 10px 5px 3px 6px;
+        }
+        h1{
+            font-family: "Racing Sans One", sans-serif;
+            font-weight: 400;
+        }
+    </style>
 </head>
 <body>
+<h1>Optimizing Images</h1>
     <article class="jerry">
-        <img src="../images/80.jpg" alt="80% jpg sample of e30 m3" height="500">
-        <section class="80"><p>80% jpg 152k<br>the quality is very good</p></section>
+        <img src="../images/80.jpg" alt="80% jpg sample of e30 m3" width="400">
+        <section class="quality"><p>80% jpg 152kb<br>the quality is very good</p></section>
+    </article>
+    <article class="jerry">
+        <img src="../images/40.jpg" alt="40% jpg sample of e30 m3" width="400">
+        <section class="quality"><p>40% jpg-84.84kb<br>the quality is decent/medium</p></section>
+    </article>
+    <article class="jerry">
+        <img src="../images/256.gif" alt=" gif 256 color of e30 m3" width="400">
+        <section class="quality"><p>256 color gif-284kb<br>medium quality</p></section>
+    </article>
+    <article class="jerry">
+        <img src="../images/64.gif" alt=" gif 64 color of e30 m3" width="400">
+        <section class="quality"><p>64 color gif-192kb<br>quality is low</p></section>
+    </article>
+    <article class="jerry">
+        <img src="../images/8.gif" alt=" gif 8 color of e30 m3" width="400">
+        <section class="quality"><p>8 color gif-76kb<br>quality very low</p></section>
+    </article>
+    <article class="jerry">
+        <img src="../images/24.png" alt=" 24 png of e30 m3" width="400">
+        <section class="quality"><p>png 24-765kb<br>quality is very high</p></section>
+    </article>
+    <div class="clear"></div>
+    <article class="cars">
+        <img src="../images/e36.jpg" alt="red e36" width="400px">
+        <img src="../images/e46.jpg" alt="E46 M3 vert" width="400px">
+        <img src="../images/2002.jpg" alt="BMW 2002" width="400px">
+        <img src="../images/m2.jpg" alt="BMW M2" width="400px">
+        <img src="../images/carrera.jpg" alt="rally carrera" width="400px">
+        <img src="../images/celica.jpg" alt="rally celica" width="400px">
+        <img src="../images/miata.jpg" alt="NA miata" width="400px">
+        <img src="../images/mini.jpg" alt="mini cooper" width="400px">
+        <img src="../images/fastback.jpg" alt="69 fastback mustang" width="400px">
+        <img src="../images/stingray.jpg" alt="corvette stingray" width="400px">
+
+
     </article>
 </body>
 </html>
