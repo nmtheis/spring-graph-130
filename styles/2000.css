@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1282px){
+    body{
+        background-color: rgb(52, 170, 147);
+        color: rgb(255, 178, 91);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
