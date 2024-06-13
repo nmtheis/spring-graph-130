@@ -9,13 +9,14 @@ background-color: whitesmoke;
     background-color: gainsboro;
 }
 
-.pure-u-1-5{
+.pure-u-1-7{
+    display: flex;
     text-align: center;    
     border: 2px solid rgb(127, 127, 127);
     box-sizing: border-box;
 }
 
-.pure-u-1-5 a{
+.pure-u-1-7 a{
     color: rgb(135, 98, 98);
     text-decoration: none;
     padding: 5px;
@@ -23,6 +24,6 @@ background-color: whitesmoke;
     display: inline-block;
 }
 
-.pure-u-1-5:hover{
+.pure-u-1-7:hover{
     background-color: rgba(154, 153, 153, 0.312);
 }
