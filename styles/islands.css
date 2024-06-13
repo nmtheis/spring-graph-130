@@ -1,11 +1,102 @@
 :root{
     --green:#007B19;
     --white:#ffffff;
+    font-family: 'Raleway', sans-serif;
 }
 
-body{
+body, header, main, footer, article, aside{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-size: 16px;
+}
+
+main, header, nav ul, footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightgrey;
+}
+
+main section{
+    border: solid white 1px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item7{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item8, .item9, .item10, .hero-orcas{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+/*styling elements*/
+
+header{
+    background-color: var(--white);
+    text-align: center;
+}
+
+header a, header p, nav a{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.hero-orcas, main section{
+    background-image: url(../images/orcas/sj-034.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+h1{
+    color: var(--white);
+    text-transform: uppercase;
+    text-shadow: rgb(2, 63, 2) 3px 3px 3px;
+
+}
+nav ul{
+    background-color: var(--white);
+
+}
+nav ul li{
+    list-style-type:none;
+    text-align: center;
+    height: 100px;
+}
+
+nav ul li :hover{
+    background-color: lightgray;
+    color: var(--white)
+}
+main section{
+    height: 400px;
+}
+.item1{
+    background-image: url(../images/orcas/sj-015.jpg);
+}
+
+.item3{
+    background-image: url(../images/orcas/sj-025.jpg);
+}
+
+.item5{
+    background-image: url(../images/orcas/sj-068.jpg);
+}
+
+.item7{
+    background-image: url(../images/orcas/sj-028.jpg);
+}
+
+.item2, .item4, .item6{
+    background-image: none;
 }
