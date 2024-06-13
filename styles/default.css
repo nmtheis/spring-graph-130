@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@media screen and (max-width: 1080px){
+    body{
+    background-color: rgb(193, 18, 18);
+    }
+}
+
+@media screen and (max-width: 580px){
+    body{
+    background-color: lightslategray;
+    }
+}

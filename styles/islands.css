@@ -29,6 +29,26 @@ main section{
     grid-column-end: 3;
 }
 
+.item6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.pic6, .pic4, .pic2{
+    background-image: url(../images/orcas/sj-011.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.pic2{
+    background-image: url(../images/orcas/sj-031.jpg);
+}
+.pic4{
+    background-image: url(../images/orcas/sj-039.jpg);
+}
+
 .item7{
     grid-column-start: 2;
     grid-column-end: 4;
@@ -46,7 +66,7 @@ header{
 }
 
 header a, header p, nav a{
-    color: lightgrey;
+    color: rgb(161, 161, 161);
     text-decoration: none;
 }
 
@@ -75,7 +95,7 @@ nav ul li{
 }
 
 nav ul li :hover{
-    background-color: lightgray;
+    background-color: rgb(145, 145, 145);
     color: var(--white)
 }
 main section{
