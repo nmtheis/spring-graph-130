@@ -1,11 +1,12 @@
 .navbar {
-    display: flex;
+    display:inline-flex;
     position:relative;
     justify-content: space-between;
     align-items: center;
     background-color: #00000069;
     color:white;
     text-decoration: none;
+    width: 75%;
 }
 
 .page-title p {
@@ -55,7 +56,7 @@
     border-radius: 10px;
 }
 
-/* hamburger menu */
+
 @media screen and (max-width:800px) {
     .navbar {
         flex-direction: column;
